@@ -64,7 +64,7 @@ fun quotaFixa():Int{
 }
 
 /**
- * Aquesta funció assigna uno quota variable segons els litres consumits
+ * Aquesta funció assigna una quota variable segons els litres consumits
  * @author gallardo4
  * @since 10/01/23
  */
@@ -81,25 +81,25 @@ fun quotaVariable(litresConsumits:Int):Double{
 }
 
 /**
- * Aquesta funció retorna un booleà segons si la familia de l'usuari és nombrosa o monomarental
+ * Aquesta funció retorna un booleà segons si la família de l'usuari és nombrosa o monomarental
  * @author gallardo4
  * @since 10/01/23
  */
 fun familiaNombrosaOMonomarental():Boolean{
-    return llegirBoolean(PURPLE+"La teva familia és nombrosa o monomarental ("+PURPLE_BOLD_BRIGHT+"true"+PURPLE+" o "+PURPLE_BOLD_BRIGHT+"false"+PURPLE+")?:"+RESET)
+    return llegirBoolean(PURPLE+"La teva família és nombrosa o monomarental ("+PURPLE_BOLD_BRIGHT+"true"+PURPLE+" o "+PURPLE_BOLD_BRIGHT+"false"+PURPLE+")?:"+RESET)
 }
 
 /**
- * Aquesta funció serveix per preguntar a l'usuari el nombre de membres de la familia
+ * Aquesta funció serveix per preguntar a l'usuari el nombre de membres de la família
  * @author gallardo4
  * @since 10/01/23
  */
 fun membresFamilia():Int{
-    return llegirInt(PURPLE+"Quants membres sou a la familia (min -"+PURPLE_BOLD_BRIGHT+" 1,"+PURPLE+" max - "+PURPLE_BOLD_BRIGHT+"30"+PURPLE+")?:"+RESET,1,30)
+    return llegirInt(PURPLE+"Quants membres sou a la família (min -"+PURPLE_BOLD_BRIGHT+" 1,"+PURPLE+" max - "+PURPLE_BOLD_BRIGHT+"30"+PURPLE+")?:"+RESET,1,30)
 }
 
 /**
- * Aquesta funció retorna una quantitat de descompte depenent d'unes condicions en la familia de l'usuari
+ * Aquesta funció retorna una quantitat de descompte depenent d'unes condicions en la família de l'usuari
  * @author gallardo4
  * @since 10/01/23
  */
